@@ -1,0 +1,5 @@
+[2021-08-31T00:41:54.197] [ERROR] [Default] - GET 403 /api/user/cancel 请求参数： {} 响应参数： {"code":403,"message":"拒绝访问","errors":"令牌过期，请重新登陆"} - 5ms
+[2021-08-31T00:42:26.913] [ERROR] [Default] - GET 403 /api/user/cancel 请求参数： {} 响应参数： {"code":403,"message":"拒绝访问","errors":"令牌过期，请重新登陆"} - 2ms
+[2021-08-31T01:05:20.780] [INFO] [Default] - POST 200 /api/user/create 请求参数： {"username":"john","password":"lucifer"} 响应参数： {"code":0,"message":"success","data":"用户添加完成"} - 134ms
+[2021-08-31T01:05:20.880] [INFO] [Default] - POST 200 /api/user/login 请求参数： {"username":"john","password":"lucifer"} 响应参数： {"code":0,"message":"success","data":"a33d8e94-c0db-4620-a30b-f3aef82af182"} - 91ms
+[2021-08-31T01:05:20.889] [INFO] [Default] - GET 200 /api/user/cancel 请求参数： {} 响应参数： {"code":0,"message":"success","data":"删除完成"} - 4ms

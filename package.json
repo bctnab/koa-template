@@ -1,0 +1,35 @@
+{
+  "name": "koa-template",
+  "version": "1.0.0",
+  "description": "koa 项目模板",
+  "main": "index.js",
+  "scripts": {
+    "debug": "cross-env NODE_ENV=debug node ./src/bin/www.js",
+    "test": "cross-env NODE_ENV=Test mocha",
+    "dev": "pm2 start ecosystem.config.js --env dev",
+    "pro": "pm2 start ecosystem.config.js --env pro",
+    "logs": "pm2 logs",
+    "stop": "pm2 stop ecosystem.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-helmet": "^6.1.0",
+    "koa-router": "^10.0.0",
+    "log4js": "^6.3.0",
+    "mongoose": "^5.12.7",
+    "redis": "^3.1.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "cross-env": "^7.0.3",
+    "mocha": "^9.1.1",
+    "supertest": "^6.1.6"
+  }
+}
